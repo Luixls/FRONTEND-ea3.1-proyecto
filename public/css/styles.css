@@ -9,6 +9,24 @@ body {
   min-height: 100vh;
 }
 
+p {
+  text-align: center;
+}
+
+.parrafo {
+  max-width: 600px; /* Ajusta este valor según lo necesario */
+  margin: 0 auto; /* Centra el párrafo horizontalmente */
+  text-align: left; /* Opcional: para alinear el texto a la izquierda */
+}
+
+.UVMLogo {
+  display: block;
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 100%; /* Ajusta el ancho máximo al 100% del contenedor */
+  max-height: 200px; /* Ajusta la altura máxima */
+}
+
 header {
   background-color: #4caf50;
   color: white;
