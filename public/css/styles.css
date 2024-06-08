@@ -33,11 +33,16 @@ p {
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .gifs img {
   padding-top: 30px;
   max-width: auto;
   max-height: 200px;
   padding-bottom: 30px;
+}
+
+.comentario {
+  height: 100px;
 }
 
 header {
@@ -90,11 +95,13 @@ h1 {
 .formulario {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .formulario label {
   font-weight: bold;
   margin-bottom: 0.5rem;
+  justify-content: center;
 }
 
 .formulario input,
@@ -104,12 +111,14 @@ h1 {
   border-radius: 4px;
   font-size: 1rem;
   width: 80%;
+  justify-content: center;
 }
 
 textarea {
   resize: vertical;
   min-height: 150px;
   width: 80%;
+  justify-content: center;
 }
 
 button {

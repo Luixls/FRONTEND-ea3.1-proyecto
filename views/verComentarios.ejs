@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="icon" href="/images/uvmlogo.png" type="image/png" />
-    <title>Información</title>
+    <title>Ver Comentarios</title>
   </head>
   <body>
     <header>
@@ -18,11 +18,20 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <h1>Comentarios</h1>
-      <p class="parrafo"></p>
-
-      <p>Texto de ejemplo, probando uno dos.</p>
+      <div class="comentarios-container">
+        <% if (comentarios.length > 0) { %> <% comentarios.forEach((comentario,
+        index) => { %>
+        <div class="comentario">
+          <h3>Comentario <%= index + 1 %>:</h3>
+          <p><strong>Asunto:</strong> <%= comentario.asunto %></p>
+          <p><strong>Mensaje:</strong> <%= comentario.mensaje %></p>
+        </div>
+        <% }); %> <% } else { %>
+        <p>No hay comentarios</p>
+        <% } %>
+      </div>
     </main>
     <footer>
       <p>&copy; 2024B - FRONTEND - UVM</p>
