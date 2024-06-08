@@ -24,7 +24,7 @@
         <% if (comentarios.length > 0) { %> <% comentarios.forEach((comentario,
         index) => { %>
         <div class="comentario">
-          <h3>Comentario <%= index + 1 %>:</h3>
+          <h4 class="comentarios">Comentario <%= index + 1 %>:</h4>
           <p><strong>Asunto:</strong> <%= comentario.asunto %></p>
           <p><strong>Mensaje:</strong> <%= comentario.mensaje %></p>
         </div>

@@ -45,6 +45,15 @@ p {
   height: 100px;
 }
 
+.comentarios {
+  text-align: center;
+}
+
+li:hover {
+  opacity: 80%;
+  animation-delay: 20ms;
+}
+
 header {
   background-color: #4caf50;
   color: white;
@@ -69,7 +78,6 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Contenedor principal */
 .container {
   flex: 1;
   max-width: 800px;
@@ -85,7 +93,6 @@ h1 {
   color: #333;
 }
 
-/* Estilos del Formulario */
 .form-contact {
   display: flex;
   flex-direction: column;
@@ -135,7 +142,6 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Estilos del Footer */
 footer {
   text-align: center;
   padding: 1rem 0;
