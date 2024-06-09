@@ -1,0 +1,128 @@
+body
+├── font-family: "Arial", sans-serif
+├── margin: 0
+├── padding: 0
+├── background-color: #ffffff
+├── color: #333
+├── display: flex
+├── flex-direction: column
+└── min-height: 100vh
+
+p
+└── text-align: center
+
+.parrafo
+├── max-width: 600px
+├── margin: 0 auto
+└── text-align: left
+
+.UVMLogo
+├── display: block
+├── padding-top: 20px
+├── margin: 0 auto
+├── max-width: 100%
+└── max-height: 200px
+
+.gifs
+├── display: flex
+├── justify-content: center
+├── gap: 20px
+└── flex-wrap: wrap
+
+.gifs img
+├── padding-top: 30px
+├── max-width: auto
+├── max-height: 200px
+└── padding-bottom: 30px
+
+.comentario
+└── height: 100px
+
+.comentarios
+└── text-align: center
+
+li:hover
+├── opacity: 80%
+└── animation-delay: 20ms
+
+header
+├── background-color: #4caf50
+└── color: white
+└── padding: 1rem 0
+
+nav ul
+├── list-style: none
+├── display: flex
+├── justify-content: center
+├── margin: 0
+└── padding: 0
+
+nav ul li
+└── margin: 0 1rem
+
+nav ul li a
+├── color: white
+└── text-decoration: none
+└── font-weight: bold
+
+.container
+├── flex: 1
+├── max-width: 800px
+├── margin: 2rem auto
+├── padding: 1rem
+├── background: white
+├── box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+└── border-radius: 8px
+
+h1
+├── text-align: center
+└── color: #333
+
+.form-contact
+├── display: flex
+├── flex-direction: column
+└── gap: 1rem
+
+.formulario
+├── display: flex
+├── flex-direction: column
+└── justify-content: center
+
+.formulario label
+├── font-weight: bold
+├── margin-bottom: 0.5rem
+└── justify-content: center
+
+.formulario input,
+.formulario textarea
+├── padding: 0.75rem
+├── border: 1px solid #ddd
+├── border-radius: 4px
+├── font-size: 1rem
+└── width: 80%
+└── justify-content: center
+
+textarea
+├── resize: vertical
+├── min-height: 150px
+└── width: 80%
+└── justify-content: center
+
+button
+├── padding: 0.75rem
+├── border: none
+├── border-radius: 4px
+├── background-color: #4caf50
+├── color: rgb(255, 247, 247)
+├── font-size: 1rem
+└── cursor: pointer
+
+button:hover
+├── background-color: #45a049
+
+footer
+├── text-align: center
+├── padding: 1rem 0
+├── background-color: #4caf50
+└── color: white
+└── margin-top: auto
